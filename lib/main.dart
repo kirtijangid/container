@@ -15,6 +15,10 @@ class MyApp extends StatelessWidget {
         body: Container(
           child: const Text(
             'Hello i am inside container!',
+            style: TextStyle(
+              fontStyle: FontStyle.italic,
+              fontSize: 22,
+            ),
           ),
         ),
       ),
