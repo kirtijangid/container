@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
           title: const Text("Container example"),
         ),
         body: Container(
+          color: Colors.yellowAccent,
           child: const Text(
             'Hello i am inside container!',
             style: TextStyle(
