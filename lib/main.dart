@@ -9,14 +9,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContextcontext) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 241, 237, 237),
+        backgroundColor: const Color.fromARGB(255, 232, 229, 229),
         appBar: AppBar(
           backgroundColor: Colors.blueAccent,
-          shadowColor: Colors.lightGreen,
+          shadowColor: Color.fromARGB(255, 80, 27, 215),
           title: const Text("Container example"),
         ),
         body: Container(
-          color: Colors.yellowAccent,
+          height: 100,
+          width: double.infinity,
+          color: Color.fromARGB(255, 245, 245, 135),
+          margin: const EdgeInsets.all(25),
           child: const Text(
             'Hello i am inside container!',
             style: TextStyle(
