@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           child: const Text(
-            'Hello i am inside container!',
+            'Hello i am inside the container!',
           ),
         ),
       ),
