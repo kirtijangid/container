@@ -16,12 +16,13 @@ class MyApp extends StatelessWidget {
           title: const Text("Container example"),
         ),
         body: Container(
+          //alignment: Alignment.center,
           height: 100,
           width: double.infinity,
           color: Color.fromARGB(255, 245, 245, 135),
-          margin: const EdgeInsets.all(25),
+          margin: EdgeInsets.all(20),
           child: const Text(
-            'Hello i am inside container!',
+            'Hello, I am inside container!',
             style: TextStyle(
               fontStyle: FontStyle.italic,
               fontSize: 22,
