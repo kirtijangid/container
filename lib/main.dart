@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
           alignment: Alignment.center,
           margin: EdgeInsets.all(20),
           decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
             border: Border.all(color: Colors.black, width: 5),
           ),
           child: const Text(
