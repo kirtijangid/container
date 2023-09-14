@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           margin: EdgeInsets.all(20),
           //transform: Matrix4.rotationZ(0.1),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(15),
+            //borderRadius: BorderRadius.circular(15),
             border: Border.all(color: Colors.black, width: 5),
           ),
           child: const Text(
