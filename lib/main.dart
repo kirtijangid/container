@@ -19,8 +19,12 @@ class MyApp extends StatelessWidget {
           //alignment: Alignment.center,
           height: 100,
           width: double.infinity,
-          color: Color.fromARGB(255, 245, 245, 135),
+          //color: Color.fromARGB(255, 245, 245, 135),
+          alignment: Alignment.center,
           margin: EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.black, width: 5),
+          ),
           child: const Text(
             'Hello, I am inside container!',
             style: TextStyle(
