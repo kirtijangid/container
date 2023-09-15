@@ -43,7 +43,9 @@ class MyApp extends StatelessWidget {
               width: double.infinity,
               //color: const Color.fromARGB(255, 60, 158, 237),
               margin: EdgeInsets.all(20),
-              decoration: BoxDecoration(border: Border.all(color: Colors.black,width: 10),),
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.black,width: 5),
+                borderRadius: BorderRadius.circular(20)),
               alignment: Alignment.center,
               child: Text(
                 'hello, this is container1',
