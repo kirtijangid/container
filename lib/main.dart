@@ -41,6 +41,9 @@ class MyApp extends StatelessWidget {
             child: Container(
               height: 100,
               width: double.infinity,
+              color: const Color.fromARGB(255, 60, 158, 237),
+              margin: EdgeInsets.all(20),
+              alignment: Alignment.center,
               child: Text(
                 'hello, this is container1',
                 style: TextStyle(
