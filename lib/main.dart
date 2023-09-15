@@ -93,6 +93,10 @@ class MyApp extends StatelessWidget {
           child: ListView(
             children: const <Widget>[
               DrawerHeader(
+                decoration: BoxDecoration(
+                  //shape:BoxShape.rectangle,
+                  color: Color.fromARGB(255, 64, 105, 240),
+                ),
                 child: Text('Contents'),
               ),
             ],
