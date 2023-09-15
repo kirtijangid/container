@@ -94,16 +94,26 @@ class MyApp extends StatelessWidget {
             children: const <Widget>[
               DrawerHeader(
                 decoration: BoxDecoration(
-                  shape:BoxShape.rectangle,
+                  shape: BoxShape.rectangle,
                   color: Color.fromARGB(255, 64, 105, 240),
                 ),
-                child: Text('Contents',
-                style: TextStyle(
-                  fontWeight:FontWeight.bold,
-                  fontSize: 30,
-                  fontStyle: FontStyle.italic,
+                child: Text(
+                  'Contents',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 30,
+                    fontStyle: FontStyle.italic,
+                  ),
                 ),
-                ),
+              ),
+              ListTile(
+                title: Text('text1'),
+              ),
+              ListTile(
+                title: Text('text2'),
+              ),
+              ListTile(
+                title: Text('text3'),
               ),
             ],
           ),
