@@ -83,6 +83,7 @@ class MyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           elevation: 20,
           child: const Icon(Icons.add),
+          shape:BeveledRectangleBorder(borderRadius: BorderRadius.circular(10)),
           onPressed: () {
 //action on pressing button
           },
