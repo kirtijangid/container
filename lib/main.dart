@@ -44,6 +44,7 @@ class MyApp extends StatelessWidget {
               //color: const Color.fromARGB(255, 60, 158, 237),
               margin: EdgeInsets.all(20),
               decoration: BoxDecoration(
+                color: Color.fromARGB(255, 169, 229, 163),
                 border: Border.all(color: Colors.black,width: 5),
                 borderRadius: BorderRadius.circular(20)),
               alignment: Alignment.center,
