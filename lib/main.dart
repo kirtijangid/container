@@ -43,6 +43,7 @@ class MyApp extends StatelessWidget {
               width: double.infinity,
               //color: const Color.fromARGB(255, 60, 158, 237),
               margin: EdgeInsets.all(20),
+              transform: Matrix4.rotationZ(0.3),
               decoration: BoxDecoration(
                 color: Color.fromARGB(255, 169, 229, 163),
                 border: Border.all(color: Colors.black,width: 5),
@@ -64,6 +65,7 @@ class MyApp extends StatelessWidget {
               alignment: Alignment.center,
               //color: Colors.amber,
               margin: EdgeInsets.all(20),
+              transform:Matrix4.rotationZ(-0.2),
               decoration: BoxDecoration(
                 color: Color.fromARGB(255, 65, 208, 226),
                 border: Border.all(color: Colors.black, width: 5),
