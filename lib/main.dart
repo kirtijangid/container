@@ -62,8 +62,11 @@ class MyApp extends StatelessWidget {
               height: 100,
               width: double.infinity,
               alignment: Alignment.center,
-              color: Colors.amber,
+              //color: Colors.amber,
               margin: EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.black12, width: 5),
+              ),
               child: Text('Hello, this is container2',
               style: TextStyle(
                 fontStyle: FontStyle.italic,
