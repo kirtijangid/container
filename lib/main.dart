@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20)),
               alignment: Alignment.center,
               child: Text(
-                'hello, this is container1',
+                'Hello, this is container1',
                 style: TextStyle(
                   fontSize: 25,
                   fontStyle: FontStyle.italic,
@@ -64,7 +64,11 @@ class MyApp extends StatelessWidget {
               alignment: Alignment.center,
               color: Colors.amber,
               margin: EdgeInsets.all(20),
-              child: Text('hello, this is container2',),))
+              child: Text('Hello, this is container2',
+              style: TextStyle(
+                fontStyle: FontStyle.italic,
+                fontSize: 25,
+              ),),))
         ]),
       ),
     );
