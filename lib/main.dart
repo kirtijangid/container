@@ -107,13 +107,20 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: Text('text1'),
+                title: Text('Social'),
+                leading: Icon(Icons.people),
               ),
               ListTile(
-                title: Text('text2'),
+                title: Text('Inbox'),
+                leading: Icon(Icons.image),
               ),
               ListTile(
-                title: Text('text3'),
+                title: Text('Mails'),
+                leading: Icon(Icons.mail),
+              ),
+              ListTile(
+                title: Text('Settings'),
+                leading: Icon(Icons.settings),
               ),
             ],
           ),
