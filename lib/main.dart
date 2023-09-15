@@ -83,10 +83,20 @@ class MyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           elevation: 20,
           child: const Icon(Icons.add),
-          shape:BeveledRectangleBorder(borderRadius: BorderRadius.circular(10)),
+          shape:
+              BeveledRectangleBorder(borderRadius: BorderRadius.circular(10)),
           onPressed: () {
 //action on pressing button
           },
+        ),
+        drawer: Drawer(
+          child: ListView(
+            children: const <Widget>[
+              DrawerHeader(
+                child: Text('Contents'),
+              ),
+            ],
+          ),
         ),
       ),
     );
