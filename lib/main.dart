@@ -15,26 +15,39 @@ class MyApp extends StatelessWidget {
           shadowColor: Color.fromARGB(255, 80, 27, 215),
           title: const Text("Container example"),
         ),
-        body: Container(
-          //alignment: Alignment.center,
-          height: 100,
-          width: double.infinity,
-          //color: Color.fromARGB(255, 245, 245, 135),
-          alignment: Alignment.center,
-          margin: EdgeInsets.all(20),
-          transform: Matrix4.rotationZ(0.1),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(15),
-            border: Border.all(color: Colors.black, width: 5),
-          ),
-          child: const Text(
-            'Hello, I am inside container!',
-            style: TextStyle(
-              fontStyle: FontStyle.italic,
-              fontSize: 22,
+        // body: Container(
+        //   //alignment: Alignment.center,
+        //   height: 100,
+        //   width: double.infinity,
+        //   //color: Color.fromARGB(255, 245, 245, 135),
+        //   alignment: Alignment.center,
+        //   margin: EdgeInsets.all(20),
+        //   transform: Matrix4.rotationZ(0.1),
+        //   decoration: BoxDecoration(
+        //     borderRadius: BorderRadius.circular(15),
+        //     border: Border.all(color: Colors.black, width: 5),
+        //   ),
+        //   child: const Text(
+        //     '----Welcome---- ',
+        //      //Hello, I am inside container!''',
+        //     style: TextStyle(
+        //       fontStyle: FontStyle.italic,
+        //       fontSize: 22,
+        //     ),
+        //   ),
+        // ),
+        body: Column(children: [
+          Expanded(
+            child: Container(
+              
+              child: Text(
+                'hello, this is container1',
+                
+              ),
             ),
           ),
-        ),
+          
+        ]),
       ),
     );
   }
