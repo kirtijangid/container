@@ -62,6 +62,7 @@ class MyApp extends StatelessWidget {
               height: 100,
               width: double.infinity,
               alignment: Alignment.center,
+              color: Colors.amber,
               child: Text('hello, this is container2',),))
         ]),
       ),
