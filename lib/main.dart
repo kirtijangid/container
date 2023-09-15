@@ -59,7 +59,9 @@ class MyApp extends StatelessWidget {
           ),
           Expanded(
             child:Container(
-              
+              height: 100,
+              width: double.infinity,
+              alignment: Alignment.center,
               child: Text('hello, this is container2',),))
         ]),
       ),
