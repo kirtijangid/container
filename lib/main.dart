@@ -39,7 +39,8 @@ class MyApp extends StatelessWidget {
         body: Column(children: [
           Expanded(
             child: Container(
-              
+              height: 100,
+              width: double.infinity,
               child: Text(
                 'hello, this is container1',
                 style: TextStyle(
@@ -49,7 +50,6 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
-          
         ]),
       ),
     );
