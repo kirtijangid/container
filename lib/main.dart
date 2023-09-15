@@ -51,12 +51,16 @@ class MyApp extends StatelessWidget {
               child: Text(
                 'hello, this is container1',
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 25,
                   fontStyle: FontStyle.italic,
                 ),
               ),
             ),
           ),
+          Expanded(
+            child:Container(
+              
+              child: Text('hello, this is container2',),))
         ]),
       ),
     );
