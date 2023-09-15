@@ -125,6 +125,22 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const [
+            BottomNavigationBarItem(
+              label: "Home",
+              icon: Icon(Icons.home),
+            ),
+            BottomNavigationBarItem(
+              label: "Search",
+              icon: Icon(Icons.search),
+            ),
+            BottomNavigationBarItem(
+              label: "Profile",
+              icon: Icon(Icons.account_circle),
+            ),
+          ],
+        ),
       ),
     );
   }
