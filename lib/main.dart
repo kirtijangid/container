@@ -126,21 +126,24 @@ class MyApp extends StatelessWidget {
           ),
         ),
         bottomNavigationBar: BottomNavigationBar(
-          items: const [
-            BottomNavigationBarItem(
-              label: "Home",
-              icon: Icon(Icons.home),
+            currentIndex: 0,
+            fixedColor: Color.fromARGB(255, 21, 145, 247),
+            items: const [
+              BottomNavigationBarItem(
+                label: "Home",
+                icon: Icon(Icons.home),
+              ),
+              BottomNavigationBarItem(
+                label: "Search",
+                icon: Icon(Icons.search),
+              ),
+              BottomNavigationBarItem(
+                label: "Profile",
+                icon: Icon(Icons.account_circle),
+              ),
+            ],
+            onTap: (int indexOfItem) {}
             ),
-            BottomNavigationBarItem(
-              label: "Search",
-              icon: Icon(Icons.search),
-            ),
-            BottomNavigationBarItem(
-              label: "Profile",
-              icon: Icon(Icons.account_circle),
-            ),
-          ],
-        ),
       ),
     );
   }
