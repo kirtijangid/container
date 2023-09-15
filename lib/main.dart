@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContextcontext) {
+  Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: const Color.fromARGB(255, 232, 229, 229),
@@ -46,9 +46,9 @@ class MyApp extends StatelessWidget {
               transform: Matrix4.rotationZ(0.2),
               transformAlignment: Alignment(0.2, 0.1),
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 169, 229, 163),
-                border: Border.all(color: Colors.black,width: 5),
-                borderRadius: BorderRadius.circular(20)),
+                  color: Color.fromARGB(255, 169, 229, 163),
+                  border: Border.all(color: Colors.black, width: 5),
+                  borderRadius: BorderRadius.circular(20)),
               alignment: Alignment.center,
               child: Text(
                 'Hello, this is container1',
@@ -60,24 +60,33 @@ class MyApp extends StatelessWidget {
             ),
           ),
           Expanded(
-            child:Container(
-              height: 100,
-              width: double.infinity,
-              alignment: Alignment.center,
-              //color: Colors.amber,
-              margin: EdgeInsets.all(20),
-              transform:Matrix4.rotationZ(-0.2),
-              decoration: BoxDecoration(
+              child: Container(
+            height: 100,
+            width: double.infinity,
+            alignment: Alignment.center,
+            //color: Colors.amber,
+            margin: EdgeInsets.all(20),
+            transform: Matrix4.rotationZ(-0.2),
+            decoration: BoxDecoration(
                 color: Color.fromARGB(255, 65, 208, 226),
                 border: Border.all(color: Colors.black, width: 5),
-                borderRadius: BorderRadius.circular(20)
-              ),
-              child: Text('Hello, this is container2',
+                borderRadius: BorderRadius.circular(20)),
+            child: Text(
+              'Hello, this is container2',
               style: TextStyle(
                 fontStyle: FontStyle.italic,
                 fontSize: 25,
-              ),),))
+              ),
+            ),
+          ))
         ]),
+        floatingActionButton: FloatingActionButton(
+          elevation: 20,
+          child: const Icon(Icons.add),
+          onPressed: () {
+//action on pressing button
+          },
+        ),
       ),
     );
   }
