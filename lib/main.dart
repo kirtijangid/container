@@ -65,7 +65,8 @@ class MyApp extends StatelessWidget {
               //color: Colors.amber,
               margin: EdgeInsets.all(20),
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.black12, width: 5),
+                color: Color.fromARGB(255, 65, 208, 226),
+                border: Border.all(color: Colors.black, width: 5),
                 borderRadius: BorderRadius.circular(20)
               ),
               child: Text('Hello, this is container2',
