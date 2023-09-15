@@ -42,7 +42,10 @@ class MyApp extends StatelessWidget {
               
               child: Text(
                 'hello, this is container1',
-                
+                style: TextStyle(
+                  fontSize: 20,
+                  fontStyle: FontStyle.italic,
+                ),
               ),
             ),
           ),
